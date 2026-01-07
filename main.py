@@ -1,8 +1,8 @@
 from operations import addition
 import streamlit as st
 
+from operations.substraction import subtract
 from operations.addition import add
-# from operations.subtraction import subtract
 from operations.multiplication import multiply
 from operations.division import divide
 
