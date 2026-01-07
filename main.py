@@ -14,7 +14,7 @@ num1 = col1.number_input("First Number", value=0.0)
 num2 = col2.number_input("Second Number", value=0.0)
 
 st.write("### Choose Operation")
-c1, c2, c3, c4 = st.columns(4)
+c1, c2, c3, c4, c5 = st.columns(5)
 
 # We use session state to show the result so it stays on screen
 if "result" not in st.session_state:
