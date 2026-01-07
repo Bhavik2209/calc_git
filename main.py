@@ -4,6 +4,7 @@ from operations.substraction import subtract
 from operations.addition import add
 from operations.multiplication import multiply
 from operations.division import divide
+from operations.modulo import modulo
 
 st.title("Modular Calculator")
 
@@ -33,5 +34,16 @@ if c4.button("➗"):
         st.session_state.result = divide(num1, num2)
     else:
         st.error("Cannot divide by zero!")
+
+
+if c4.button("%"):
+    num1 = int(num1)
+    num2 = int(num2)
+
+    if (num2 != 0):
+        st.session_state.result = modulo(num1, num2)
+    else:
+        st.error("Cannot divide by zero!")
+
 
 st.success(f"Result: {st.session_state.result}")
