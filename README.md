@@ -10,4 +10,4 @@ here me n my friends will make a calculator with the help of Github.
 - Jainam Sanghavi – Multiplication functionality
 - Devam Satasiya – Subtraction functionality
 - Vrund Patel – Addition functionality
-- Chetan Sharma – User Interface (UI) design and implementation
+- Chetan Sharma – Basic Setup
