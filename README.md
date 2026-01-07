@@ -10,4 +10,5 @@ here me n my friends will make a calculator with the help of Github.
 - Jainam Sanghavi – Multiplication functionality
 - Devam Satasiya – Subtraction functionality
 - Vrund Patel – Addition functionality
+- Jaidev Sondagar - Modulo functionality
 - Chetan Sharma – Basic Setup
