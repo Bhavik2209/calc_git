@@ -1,9 +1,10 @@
+from operations import addition
 import streamlit as st
 
 # from operations.addition import add
 from operations.substraction import subtract
 # from operations.multiplication import multiply
-# from operations.division import divide
+from operations.division import divide
 
 st.title("Modular Calculator")
 
